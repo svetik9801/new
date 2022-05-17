@@ -1,0 +1,105 @@
+* {padding: 0;margin: 0;border: 0;}
+*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+nav,footer,header,aside {display: block;}
+html,body {height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
+body {
+  background: #e8e8e8;
+}
+.container {
+  width: 842px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: Arial;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+h1 {
+  font-size: 7pt;
+  text-transform: uppercase;
+
+}
+ul {
+  margin: 20px 0 50px 0;
+
+}
+ul li {
+  position: relative;
+  
+}
+.list1 li:first-child {
+  text-decoration: line-through;
+}
+.list1 li:nth-child(2) {
+  font-weight: bold;
+}
+.list1 li:nth-child(3) {
+  font-style: italic;
+}
+.list1 li:last-child {
+  text-transform: uppercase;
+}
+ ul li:before {
+  content: "";
+  background: url('../img/check icon.png')  no-repeat;
+  width: 25px;
+  height: 25px;
+  left: -35px;
+ 
+  position: absolute;
+ }
+.red:hover {
+  color: red;
+  background: url('../img/check icon2.png') left no-repeat;
+}
+.button {
+  margin: 40px 0 100px 20px;
+  width: 200px;
+  height: 45px;
+  background: #80b7b3;
+  border-radius: 50pt 50pt;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+
+}
+.button:hover {
+  background: #3a5856;
+}
+.button:active {
+  background: #818181;
+}
+.button:after {
+  content:'';
+  width: 20px;
+  height: 20px;
+  background: url('../img/arrow.svg') left no-repeat;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+p {
+  margin-bottom: 30px;
+  font-size: 9pt;
+}
+p:first-child:first-line {
+  color: red;
+}
+p:last-child:first-letter {
+  color: red;
+}
+div.text + ul {
+  margin: 50px 0 50px 50px;
+}

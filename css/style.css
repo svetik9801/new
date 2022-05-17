@@ -1,0 +1,12 @@
+header {
+  background: blue;
+}
+
+body {
+  font-size: 20px;
+  background-color: azure;
+}
+
+body div {
+  font-size: 10px;
+}

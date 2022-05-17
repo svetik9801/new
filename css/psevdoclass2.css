@@ -1,0 +1,86 @@
+body {
+	background: #e8e8e8;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.container {
+	width: 842px;
+	margin: 0 auto;
+}
+.block {
+	margin-bottom: 50px;
+}
+h1 {
+	font-size: 7px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.text {
+	padding: 0;
+}
+li {
+	margin-bottom: 10px;
+	list-style-type: none;
+	background: url('../img/check icon.png') left no-repeat;
+	padding-left: 30px;
+}
+.text li:first-child {
+	text-decoration: line-through;
+}
+.text li:nth-child(2) {
+	font-weight: bold;
+}
+.text li:nth-child(3) {
+	font-style: italic;
+}
+.text li:last-child {
+	text-transform: uppercase;
+}
+.text2 {
+	padding: 0;
+}
+.red:hover {
+	color: red;
+	background: url('../img/check icon2.png') left no-repeat;
+}
+.button {
+	margin: 70px 0 70px 20px;
+	width: 200px;
+	height: 45px;
+	background: #80b7b3;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 20pt;
+	border: none;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.button:hover{
+	background: #3a5856;
+}
+.button:active{
+	background: #818181;
+}
+img {
+	padding: 0px 0 0 10px;
+	width: 25px;
+	height: 20px;
+
+}
+.input {
+	display: block;
+	
+	width: 300px;
+	height: 50px;
+}
+.input:focus {
+	border: 0.1px solid #80b7b3;
+	box-shadow: 0 0 20px #80b7b3;
+	outline: 0;
+
+}
+
+
